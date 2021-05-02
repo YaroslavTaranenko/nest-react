@@ -1407,8 +1407,13 @@
         "affectsGlobalScope": false
       },
       "./src/server/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "a29132669c07f8a2f98d1d1d4fa995d6c60b9ef7f852cefdf91754bce4fae3bf",
         "signature": "f761c91419d0a89422a0004ef1a92929dd4d2d5e5c16758654d8b0467d1998c6",
+        "affectsGlobalScope": false
+      },
+      "./src/server/article/article.module.ts": {
+        "version": "706aeaaa13e4163127d3257e0fddb85e61447ac2e714347d3c4f49328ddb7e1e",
+        "signature": "4aa8966c963f643b5b1e874d7ac9eea6ec59070fe9f61c49bdb09a587121514c",
         "affectsGlobalScope": false
       },
       "./node_modules/@babel/types/lib/index.d.ts": {
@@ -3144,6 +3149,9 @@
         "./node_modules/@nestjs/common/index.d.ts",
         "./src/common/helloresponse.ts"
       ],
+      "./src/server/article/article.module.ts": [
+        "./node_modules/@nestjs/common/index.d.ts"
+      ],
       "./src/server/main.ts": [
         "./node_modules/@nestjs/core/index.d.ts",
         "./src/server/app.module.ts"
@@ -4782,6 +4790,7 @@
       "./src/server/app.controller.ts",
       "./src/server/app.module.ts",
       "./src/server/app.service.ts",
+      "./src/server/article/article.module.ts",
       "./src/server/main.ts"
     ]
   },
